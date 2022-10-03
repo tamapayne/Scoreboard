@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: scoreboard; 
+    src: url(CursedTimerUlil-Aznm.ttf); 
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center; 
+    background: #1B244A;
+    height: 100vh; 
+    color: #EEEEEE;  
+}
+
+.header-txt {
+    margin-bottom:5px; 
+    font-size: 40px;
+}
+
+.score-txt {
+    background: #080001;
+    color: #F94F6D;  
+    padding: 15px 5px; 
+    border-radius: 5px; 
+    margin-top: 5px; 
+    width: 155px; 
+    height: 120px; 
+    font-size: 86px; 
+    margin-bottom: 15px; 
+    font-family: scoreboard; 
+}
+
+.bonus-pts-container {
+    display: flex; 
+    justify-content: space-around; 
+}
+
+.add-pts-btn {
+    background: none; 
+    padding: 12px; 
+    border: 2px solid #9AABD8; 
+    border-radius: 5px;
+    color: #9AABD8; 
+    font-family: scoreboard; 
+}
+
+
+#new-game-btn {
+    position: absolute;   
+    bottom: 50px; 
+    right: 340px; 
+}
